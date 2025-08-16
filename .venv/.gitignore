@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data and output files
+*.csv
+*.tsv
+*.log
+*.sqlite3
+*.db
+*.h5
+*.parquet
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter runtime
+.jupyter/
+
+# Other project files
+books_cleaned.csv
+tagged_description.txt
+
+# Ignore all files in .venv except .gitignore
+.venv/*
+!.venv/.gitignore
